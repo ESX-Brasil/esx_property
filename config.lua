@@ -6,7 +6,7 @@ Config.RoomMenuMarkerColor    = {r = 102, g = 204, b = 102}
 Config.MarkerType             = 1
 Config.Zones                  = {}
 Config.Properties             = {}
-Config.EnablePlayerManagement = false -- If set to true you need esx_realestateagentjob
-Config.Locale                 = 'fr'
+Config.EnablePlayerManagement = false -- Se definido como verdadeiro, você precisa de esx_realestateagem de trabalho
+Config.Locale                 = 'br' -- Traduções disponives br, de, en, es, fi, fr, pl, sv
 
 Config.Properties             = {}

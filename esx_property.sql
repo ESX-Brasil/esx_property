@@ -5,15 +5,15 @@ ALTER TABLE `users`
 ;
 
 INSERT INTO `addon_account` (name, label, shared) VALUES
-  ('property_black_money','Argent Sale Propriété',0)
+  ('property_black_money','Propriedade de venda de dinheiro',0)
 ;
 
 INSERT INTO `addon_inventory` (name, label, shared) VALUES
-  ('property','Propriété',0)
+  ('property','Propriedade',0)
 ;
 
 INSERT INTO `datastore` (name, label, shared) VALUES
-  ('property','Propriété',0)
+  ('property','Propriedade',0)
 ;
 
 CREATE TABLE `owned_properties` (
@@ -91,4 +91,3 @@ INSERT INTO `properties` VALUES
   (41,'DellPerroHeightst4','Dell Perro Heights - Apt 28',NULL,'{\"x\":-1452.125,\"y\":-540.591,\"z\":73.044}','{\"x\":-1455.435,\"y\":-535.79,\"z\":73.044}',NULL,'[]','DellPerroHeights',0,1,0,'{\"x\":-1467.058,\"y\":-527.571,\"z\":72.443}',1700000),
   (42,'DellPerroHeightst7','Dell Perro Heights - Apt 30',NULL,'{\"x\":-1451.562,\"y\":-523.535,\"z\":55.928}','{\"x\":-1456.02,\"y\":-519.209,\"z\":55.929}',NULL,'[]','DellPerroHeights',0,1,0,'{\"x\":-1457.026,\"y\":-530.219,\"z\":55.937}',1700000)
 ;
-

@@ -1,33 +1,33 @@
 # esx_property
 
-### Requirements
-- [instance](https://github.com/ESX-Org/instance)
-- [cron](https://github.com/ESX-Org/cron)
-- [esx_addonaccount](https://github.com/ESX-Org/esx_addonaccount)
-- [esx_addoninventory](https://github.com/ESX-Org/esx_addoninventory)
-- [esx_datastore](https://github.com/ESX-Org/esx_datastore)
+### Requisitos
+- [instance](https://github.com/ESX-Brasil/instance)
+- [cron](https://github.com/ESX-Brasil/cron)
+- [esx_addonaccount](https://github.com/ESX-Brasil/esx_addonaccount)
+- [esx_addoninventory](https://github.com/ESX-Brasil/esx_addoninventory)
+- [esx_datastore](https://github.com/ESX-Brasil/esx_datastore)
 
-## Download & Installation
+## Download e Instalação
 
-### Using [fvm](https://github.com/qlaffont/fvm-installer)
+### Usando [fvm](https://github.com/qlaffont/fvm-installer)
 ```
-fvm install --save --folder=esx esx-org/esx_property
+fvm install --save --folder=esx ESX-Brasil/esx_property
 ```
 
-### Using Git
+### Usando o Git
 ```
 cd resources
-git clone https://github.com/ESX-Org/esx_property [esx]/esx_property
+git clone https://github.com/ESX-Brasil/esx_property [esx]/esx_property
 ```
 
-### Manually
-- Download https://github.com/ESX-Org/esx_property/archive/master.zip
-- Put it in the `[esx]` directory
+### Manualmente
+- Download https://github.com/ESX-Brasil/esx_property/archive/master.zip
+- Coloque-o no diretório `[esx]`
 
-## Installation
-- Import `esx_property.sql` in your database
-- Import `esx_offices.sql` in your database if you want offices (The Arcadius Business Centre is not included because realstateagentjob)
-- Add this to your `server.cfg`:
+## Instalação
+- Importe `esx_property.sql` em seu banco de dados
+- Importe `esx_offices.sql` em seu banco de dados se você quiser escritórios (O Arcadius Business Center não está incluído porque realstateagentjob)
+- Adicione isto ao seu `server.cfg`:
 
 ```
 start esx_property
