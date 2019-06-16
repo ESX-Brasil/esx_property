@@ -684,7 +684,7 @@ AddEventHandler('playerSpawned', function()
 
 						for i=1, #property.ipls, 1 do
 							RequestIpl(property.ipls[i])
-				
+
 							while not IsIplActive(property.ipls[i]) do
 								Citizen.Wait(0)
 							end
